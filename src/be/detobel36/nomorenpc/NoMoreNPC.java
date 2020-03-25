@@ -1,15 +1,3 @@
-/*
- *         ----------------------
- *         | PHOENIX REBIRTH FR |
- *         ----------------------
- * Copyright 2020 PhoenixRebirthFr.
- *
- * Ce projet est réservé au serveur PhoenixRebirth
- * Vous ne pouvez pas utiliser ces fichiers sans autorisation préalable
- * d'un administrateur du serveur PhoenixRebirth France.
- * 
- *  http://phoenix-rebirth.fr - contact@phoenix-rebirth.fr
- */
 package be.detobel36.nomorenpc;
 
 import org.bukkit.plugin.java.JavaPlugin;
