@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>be.detobel36</groupId>
+    <artifactId>NoMoreNPC</artifactId>
+    <version>1.0</version>
+    <packaging>jar</packaging>
+    <properties>
+        <author>Detobel36</author>
+        <mainClass>be.detobel36.nomorenpc.NoMoreNPC</mainClass>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <netbeans.hint.license>Phoenixrebirth</netbeans.hint.license>
+    </properties>
+    
+    <repositories>
+        <repository>
+            <id>spigot-repo</id>
+            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+        </repository>
+    </repositories>
+    
+    <build>
+        <sourceDirectory>${project.basedir}/src</sourceDirectory>
+        <defaultGoal>clean install</defaultGoal>
+        <finalName>${project.name}</finalName>
+        <resources>
+            <resource>
+                <directory>resources/</directory>
+                <targetPath>.</targetPath>
+                <filtering>true</filtering>
+                <includes>
+                    <include>plugin.yml</include>
+                </includes>
+            </resource>
+            <resource>
+                <directory>resources/</directory>
+                <targetPath>.</targetPath>
+                <filtering>false</filtering>
+                <excludes>
+                    <exclude>plugin.yml</exclude>
+                </excludes>
+            </resource>
+        </resources>
+    </build>
+    
+    <dependencies>
+        <dependency>
+               <groupId>org.spigotmc</groupId>
+               <artifactId>spigot-api</artifactId>
+               <version>1.15.2-R0.1-SNAPSHOT</version>
+               <scope>provided</scope>
+        </dependency>
+    </dependencies>
+    
+    
+</project>

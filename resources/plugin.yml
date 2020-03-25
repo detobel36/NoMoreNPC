@@ -1,0 +1,6 @@
+name: ${name}
+main: ${mainClass}
+version: ${version}
+author: ${author}
+description: Plugin which disable NPC spawnning
+website: http://detobel36.ddns.net
