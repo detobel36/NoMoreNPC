@@ -6,4 +6,7 @@ It was developped for Farouni from MinecraftFR Forum (https://minecraft.fr/forum
 No configuration needed
 
 ## Bugs ?
-Go to [issue](https://github.com/detobel36/NoMoreNPC/issues)
+Go to [Issues](https://github.com/detobel36/NoMoreNPC/issues)
+
+## Download
+Go to [Release page](https://github.com/detobel36/NoMoreNPC/releases/)
