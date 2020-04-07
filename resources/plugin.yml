@@ -4,3 +4,6 @@ version: ${version}
 author: ${author}
 description: Plugin which disable NPC spawnning
 website: http://detobel36.ddns.net
+permissions:
+  nomorenpc.debug:
+    description: Allow to have a debug message when spawn of NPC is cancel

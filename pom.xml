@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>be.detobel36</groupId>
     <artifactId>NoMoreNPC</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
     <packaging>jar</packaging>
     <properties>
         <author>Detobel36</author>
@@ -53,6 +53,5 @@
                <scope>provided</scope>
         </dependency>
     </dependencies>
-    
     
 </project>
